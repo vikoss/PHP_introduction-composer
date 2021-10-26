@@ -1,0 +1,18 @@
+{
+    "name": "vikoss/php-with-composer",
+    "description": "Introduction to composer",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "^2.53"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vikoss",
+            "email": "vikoss.yiss@gmail.com"
+        }
+    ]
+}
