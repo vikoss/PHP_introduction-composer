@@ -13,3 +13,10 @@ if (!function_exists('lower')) {
         return Text\Format::lowerText($value);
     }
 }
+
+if (!function_exists('dateNow')) {
+    function dateNow()
+    {
+        return Carbon\Carbon::now();
+    }
+}
